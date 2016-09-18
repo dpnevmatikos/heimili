@@ -4,7 +4,7 @@
         "target": "es6"
     },
     "files": [
-      "./typings/tsd.d.ts",
+      "./typings/index.d.ts",
       "./models.ts",
       "./db.ts",
       "./routes/index.ts",
