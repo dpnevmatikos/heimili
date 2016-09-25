@@ -9,7 +9,7 @@
     "lodash": "github:DefinitelyTyped/DefinitelyTyped/lodash/lodash.d.ts#94d8775a947f626269b06ccadd6f5e61839389d0",
     "mime": "github:DefinitelyTyped/DefinitelyTyped/mime/mime.d.ts#94d8775a947f626269b06ccadd6f5e61839389d0",
     "morgan": "github:DefinitelyTyped/DefinitelyTyped/morgan/morgan.d.ts#94d8775a947f626269b06ccadd6f5e61839389d0",
-    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#94d8775a947f626269b06ccadd6f5e61839389d0",
+    "node": "registry:dt/node#6.0.0+20160925070332",
     "react": "registry:dt/react#0.14.0+20160920055104",
     "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
     "sequelize": "github:DefinitelyTyped/DefinitelyTyped/sequelize/sequelize.d.ts#94d8775a947f626269b06ccadd6f5e61839389d0",
