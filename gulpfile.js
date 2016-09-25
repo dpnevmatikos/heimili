@@ -15,7 +15,7 @@ var paths = {
 };
 
 gulp.task('clean:dist', function () {
-  return del(paths.clean);
+    return del(paths.clean);
 });
 
 gulp.task('serverTs', function () {
