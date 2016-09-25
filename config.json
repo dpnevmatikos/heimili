@@ -1,9 +1,0 @@
-{
-    "database": {
-        "name": "heimili",
-        "dialect": "mssql",
-        "host": "dpnevmatikos.database.windows.net",
-        "username": "dpnevmatikos@dpnevmatikos.database.windows.net",
-        "password": "drums@@897"
-    }
-}
