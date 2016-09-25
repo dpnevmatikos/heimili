@@ -1,3 +1,3 @@
-# README #
+# Heimili #
 
 A Typescript - ExpressJS - SequelizeJS - React project created for fun.
