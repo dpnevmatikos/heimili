@@ -6,3 +6,5 @@
 *.log
 /dist
 *.map
+config.json
+
