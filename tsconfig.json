@@ -2,8 +2,7 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es6",
-        "sourceMap": true,
-        "jsx": "react"    
+        "sourceMap": true
     },
     "files": [
       "./typings/index.d.ts",

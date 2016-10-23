@@ -11,7 +11,7 @@ var paths = {
     clean: [ baseOutDir + '/*' ],
     server: baseOutDir,
     app: baseOutDir + '/app',
-    css: baseOutDir + '/public/stylesheets',
+    css: baseOutDir + '/app/css',
     views: baseOutDir + '/views',
     startup: baseOutDir + '/bin'
 };
@@ -38,7 +38,7 @@ gulp.task('appTs', ['clean:dist'], function () {
 });
 
 gulp.task('css', ['clean:dist'], function() {
-    return gulp.src('public/stylesheets/*.css')
+    return gulp.src('app/css/*.css')
         .pipe(cleanCSS())
         .pipe(gulp.dest(paths.css));
 });
@@ -58,11 +58,17 @@ gulp.task('copy:startup', ['clean:dist'], function() {
         .pipe(gulp.dest(paths.startup));
 });
 
+gulp.task('copy:app', ['clean:dist'], function() {
+    return gulp.src('app/*.html')
+        .pipe(gulp.dest(paths.app));
+});
+
 gulp.task('default', [
     'serverTs',
     'appTs',
     'css',
     'copy:views',
     'copy:json',
-    'copy:startup'
+    'copy:startup',
+    'copy:app'
 ]);
