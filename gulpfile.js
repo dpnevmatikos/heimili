@@ -80,7 +80,7 @@ gulp.task('default', [
     'webpack'
 ]);
 
-gulp.watch('**/.ts', ['serverTs']);
+gulp.watch('**/*.ts', ['serverTs']);
 gulp.watch('app/**/*.html', ['copy:app']);
 gulp.watch('app/**/*.tsx', ['webpack']);
 gulp.watch('app/**/*.css', ['webpack']);
