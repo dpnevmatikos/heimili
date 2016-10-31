@@ -3,5 +3,5 @@ module.exports = {
     output: {
         path:     './dist/app',
         filename: 'bundle.js',
-    },
+    }
 };
