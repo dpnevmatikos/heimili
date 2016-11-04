@@ -54,6 +54,11 @@ gulp.task('copy:json', function() {
         .pipe(gulp.dest(baseOutDir));
 });
 
+gulp.task('copy:webconfig', function() {
+    return gulp.src('web.config')
+        .pipe(gulp.dest(baseOutDir));
+});
+
 gulp.task('copy:startup', function() {
     return gulp.src('bin/www')
         .pipe(gulp.dest(paths.startup));
@@ -77,6 +82,7 @@ gulp.task('default', [
     'copy:views',
     'copy:json',
     'copy:startup',
+    'copy:webconfig',
     'webpack'
 ]);
 
