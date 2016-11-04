@@ -4,7 +4,8 @@
   "private": true,
   "typings": "./typings/index.d.ts",
   "scripts": {
-    "start": "nodemon ./dist/bin/www"
+    "start": "node ./dist/bin/www",
+    "watch": "nodemon ./dist/bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
